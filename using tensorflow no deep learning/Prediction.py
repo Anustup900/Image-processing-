@@ -9,12 +9,12 @@ start = time.time()
 try:
     
     # Path of  training images
-    train_path = r'C:\Users\T01144\Desktop\T01144\IDLE Scripts\Image Classification\Using Tensorflow\data\train'
+    train_path = r'.\data\train'
     if not os.path.exists(train_path):
         print("No such directory")
         raise Exception
     # Path of testing images
-    dir_path = r'C:\Users\T01144\Desktop\T01144\IDLE Scripts\Image Classification\Using Tensorflow\data\alien_test'
+    dir_path = r'.\data\alien_test'
     if not os.path.exists(dir_path):
         print("No such directory")
         raise Exception
