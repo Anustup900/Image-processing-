@@ -17,7 +17,7 @@ try:
     validation_size = 0.2
     img_size = 128
     num_channels = 3
-    train_path=r'C:\Users\T01144\Desktop\T01144\IDLE Scripts\Image Classification\Using Tensorflow\data\train'
+    train_path=r'.\data\train'
 
     #Prepare input data
     if not os.path.exists(train_path):
