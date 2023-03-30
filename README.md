@@ -16,7 +16,7 @@ time<br>
 keras==2.2.0<br>
 numpy==1.14.5<br>
 
-### Implementation using Tensorflow
+### Implemented using Tensorflow
 os<br>
 time<br>
 cv2<br>
